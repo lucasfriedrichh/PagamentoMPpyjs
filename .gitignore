@@ -1,0 +1,87 @@
+# ====================
+# Python
+# ====================
+
+# Arquivos compilados em Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+ENV/
+env/
+.venv/
+.env
+
+# Arquivos de distribuição / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs e cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+.cache
+
+# Testes, cobertura e caches
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.mypy_cache/
+
+# ====================
+# Node.js / React
+# ====================
+
+# Módulos do Node
+node_modules/
+
+# Logs do npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de lock do gerenciador de pacotes
+package-lock.json
+yarn.lock
+
+# Diretórios de build
+build/
+.cache/
+dist/
+
+# ====================
+# Arquivos de Configuração do Editor/IDE
+# ====================
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# Arquivos gerados pelo sistema operacional
+# ====================
+
+.DS_Store
+Thumbs.db
